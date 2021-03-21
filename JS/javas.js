@@ -42,7 +42,6 @@ if (age >= 16 && age <= 60) {
     alert('please input a number');
 }
 
-
  var favouriteWriter = prompt("who's your favourite writer?");
 
 while (favouriteWriter !== 'Dan brown' && favouriteWriter !== 'Ali Al-wardi') {
@@ -58,7 +57,7 @@ var result = '';
 if (favouriteWriter == 'Dan brown') {
     pic = '<img src="https://mediad.publicbroadcasting.net/p/nhpr/files/styles/x_large/public/201711/dan_brown__.jpg"/> </br>';
 } else if (favouriteArtist == 'Ali Al-wardi') {
-    pic = '<img src="https://th.bing.com/th/id/OIP.wEVu73oZ6pdrciVsfgHm9QAAAA?pid=ImgDet&rs=1"/> </br>';
+    pic = '<img src="https://pbs.twimg.com/media/CifpURAXAAABD3g.jpg"/> </br>';
 }
 
 console.log(pic);
