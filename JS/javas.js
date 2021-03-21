@@ -1,8 +1,8 @@
 
-  var userName="Al-dasouqi";
+ /* var userName="Al-dasouqi";
  alert(userName);
 
- /* var userName1= prompt("whats your name?");
+  var userName1= prompt("whats your name?");
  console.log(userName1);
 
  document.write('<h3>'+userName1+'</h3>');
