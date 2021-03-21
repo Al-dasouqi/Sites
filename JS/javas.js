@@ -30,7 +30,7 @@ if(age>=16){
 }
 confirm("Age confirmed!") */
 
-<p> ------------------------------------------------------ </p>
+
 
 var age = prompt("what is your age?");
 
