@@ -1,5 +1,5 @@
 
- /* var userName="Al-dasouqi";
+  var userName="Al-dasouqi";
  alert(userName);
 
  var userName1= prompt("whats your name?");
@@ -28,7 +28,7 @@ if(age>=16){
 }else{
     alert('Will wait you to join our club!');
 }
-confirm("Age confirmed!") */
+confirm("Age confirmed!") 
 
 
 var age = prompt("what is your age?");
