@@ -31,7 +31,6 @@ if(age>=16){
 confirm("Age confirmed!") */
 
 
-
 var age = prompt("what is your age?");
 
 console.log(age);
@@ -44,7 +43,7 @@ if (age >= 16 && age <= 60) {
 }
 
 
-var favouriteWriter = prompt("who's your favourite writer?");
+/* var favouriteWriter = prompt("who's your favourite writer?");
 
 while (favouriteWriter !== 'Dan brown' && favouriteWriter !== 'Ali Al-wardi') {
     favouriteArtist = prompt('please only write Dan brown/Ali Al-wardi');
@@ -70,4 +69,4 @@ for (var i = 0; i < Pictures; i++) {
 
 console.log(result);
 
-document.write(result);
+document.write(result); */
