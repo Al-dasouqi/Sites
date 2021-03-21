@@ -46,7 +46,7 @@ if (age >= 16 && age <= 60) {
  var favouriteWriter = prompt("who's your favourite writer?");
 
 while (favouriteWriter !== 'Dan brown' && favouriteWriter !== 'Ali Al-wardi') {
-    favouriteArtist = prompt('please only write Dan brown/Ali Al-wardi');
+    favouriteWriter = prompt('please only write Dan brown/Ali Al-wardi');
 
 }
 
