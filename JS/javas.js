@@ -18,7 +18,7 @@ var favouriteAuthor= prompt("who's  your favourite Author?");
     document.write('<img src="https://th.bing.com/th/id/OIP.wEVu73oZ6pdrciVsfgHm9QAAAA?pid=ImgDet&rs=1">');
 }else{
     alert('choose betwen Dan Brown or Ali Al-wardi next time');
-} */
+} 
 
 var age=prompt("whats your age?");
 
@@ -30,7 +30,7 @@ if(age>=16){
 }
 confirm("Age confirmed!") 
 
-
+*/
 var age = prompt("what is your age?");
 
 console.log(age);
