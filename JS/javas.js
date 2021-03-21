@@ -2,7 +2,7 @@
   var userName="Al-dasouqi";
  alert(userName);
 
- var userName1= prompt("whats your name?");
+ /* var userName1= prompt("whats your name?");
  console.log(userName1);
 
  document.write('<h3>'+userName1+'</h3>');
@@ -18,7 +18,7 @@ var favouriteAuthor= prompt("who's  your favourite Author?");
     document.write('<img src="https://th.bing.com/th/id/OIP.wEVu73oZ6pdrciVsfgHm9QAAAA?pid=ImgDet&rs=1">');
 }else{
     alert('choose betwen Dan Brown or Ali Al-wardi next time');
-} 
+} */
 
 var age=prompt("whats your age?");
 
@@ -43,7 +43,7 @@ if (age >= 16 && age <= 60) {
 }
 
 
-/* var favouriteWriter = prompt("who's your favourite writer?");
+ var favouriteWriter = prompt("who's your favourite writer?");
 
 while (favouriteWriter !== 'Dan brown' && favouriteWriter !== 'Ali Al-wardi') {
     favouriteArtist = prompt('please only write Dan brown/Ali Al-wardi');
@@ -69,4 +69,4 @@ for (var i = 0; i < Pictures; i++) {
 
 console.log(result);
 
-document.write(result); */
+document.write(result); 
