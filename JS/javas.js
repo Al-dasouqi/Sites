@@ -1,36 +1,45 @@
 
  /* var userName="Al-dasouqi";
- alert(userName);
+ alert(userName); */
 
+ //UserName
   var userName1= prompt("whats your name?");
- console.log(userName1);
+// console.log(userName1);
 
- document.write('<h3>'+userName1+'</h3>');
-
-
+ function welcomeMessage(name){
+    console.log(userName1);
+   return document.write('<h3>'+userName1+'</h3>');
+ }
+welcomeMessage(userName1);
+/*
+//Favourite Author
 var favouriteAuthor= prompt("who's  your favourite Author?");
-
-
+function writer(name1){
 
  if(favouriteAuthor=='Dan Brown'){
-    document.write('<img src="https://mediad.publicbroadcasting.net/p/nhpr/files/styles/x_large/public/201711/dan_brown__.jpg">');
+   return document.write('<img src="https://mediad.publicbroadcasting.net/p/nhpr/files/styles/x_large/public/201711/dan_brown__.jpg">');
 }else if(favouriteAuthor=='Ali Al-wardi'){
-    document.write('<img src="https://th.bing.com/th/id/OIP.wEVu73oZ6pdrciVsfgHm9QAAAA?pid=ImgDet&rs=1">');
+    return document.write('<img src="https://th.bing.com/th/id/OIP.wEVu73oZ6pdrciVsfgHm9QAAAA?pid=ImgDet&rs=1">');
 }else{
     alert('choose betwen Dan Brown or Ali Al-wardi next time');
 } 
-
+}
+writer(favouriteAuthor);
+*/
+//Asking about the age
 var age=prompt("whats your age?");
-
+function cuAge(age1){
 console.log(age);
 if(age>=16){
     alert('welcome to our club!'); 
 }else{
     alert('Will wait you to join our club!');
 }
-confirm("Age confirmed!") 
+}
+cuAge(age);
+confirm("Age confirmed!");
 
-*/
+/*
 var age = prompt("what is your age?");
 
 console.log(age);
@@ -41,22 +50,23 @@ if (age >= 16 && age <= 60) {
 } else {
     alert('please input a number');
 }
-
+*/
  var favouriteWriter = prompt("who's your favourite writer?");
+ var getFavWriter = function(){
 
-while (favouriteWriter !== 'Dan brown' && favouriteWriter !== 'Ali Al-wardi') {
-    favouriteWriter = prompt('please only write Dan brown/Ali Al-wardi');
+while (favouriteWriter !== 'Dan' && favouriteWriter !== 'Ali') {
+    favouriteWriter = prompt('please only write Dan/Ali');
 
 }
 
 var Pictures = prompt('how many pictures do you want for the writer?');
-
 var pic = '';
 var result = '';
 
-if (favouriteWriter == 'Dan brown') {
+if (favouriteWriter == 'Dan') {
     pic = '<img src="https://mediad.publicbroadcasting.net/p/nhpr/files/styles/x_large/public/201711/dan_brown__.jpg"/> </br>';
-} else if (favouriteArtist == 'Ali Al-wardi') {
+} 
+else if (favouriteWriter == 'Ali') {
     pic = '<img src="https://pbs.twimg.com/media/CifpURAXAAABD3g.jpg"/> </br>';
 }
 
@@ -66,6 +76,9 @@ for (var i = 0; i < Pictures; i++) {
     result += pic;
 }
 
-console.log(result);
-
-document.write(result); 
+//console.log(result);
+document.write(result);}
+//return result; }
+getFavWriter();
+//favWriter(Pictures);
+//document.write(getFavWriter();)
