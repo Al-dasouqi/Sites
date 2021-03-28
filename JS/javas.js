@@ -1,6 +1,6 @@
 
  /* var userName="Al-dasouqi";
- alert(userName); */
+ alert(userName); 
 
  //UserName
   var userName1= prompt("whats your name?");
@@ -25,7 +25,7 @@ function writer(name1){
 } 
 }
 writer(favouriteAuthor);
-*/
+
 //Asking about the age
 var age=prompt("whats your age?");
 function cuAge(age1){
@@ -50,7 +50,7 @@ if (age >= 16 && age <= 60) {
 } else {
     alert('please input a number');
 }
-*/
+
  var favouriteWriter = prompt("who's your favourite writer?");
  var getFavWriter = function(){
 
@@ -82,3 +82,13 @@ document.write(result);}
 getFavWriter();
 //favWriter(Pictures);
 //document.write(getFavWriter();)
+
+function(name) {
+    return "Hello, " + name;
+}
+greet;
+
+function greet(name) {
+    return "Hello, " + name;
+  }
+  greet("Grace Hopper"); */
