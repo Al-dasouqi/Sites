@@ -9,7 +9,21 @@
 .bio{
     text-align: justify;
     margin: 40px;
-    padding: 50px;
+    padding: 70px; 
     background-color: rgb(32, 175, 201);
     font-size: medium;
 }
+
+p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: large;
+}
+
+footer{
+    text-align: center;
+    margin: 40px;
+    padding: 50px;
+}
+
