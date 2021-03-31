@@ -105,6 +105,8 @@ let favouriteHabit=prompt('I like Football matches?');
 favHabit();
 
 
+//Q5
+function favWriter(){
  let favouriteWriter=prompt('My favourite writer is Dan Brown?');
     favouriteWriter=favouriteWriter.toLowerCase();
     console.log(favouriteWriter.toLowerCase());
@@ -118,9 +120,11 @@ favHabit();
    //console.log('NO!! It\'s Dan brown ' );
    alert('NO!! It\'s Dan brown ' );
  }
+}
+favWriter();
+ 
 
-
- let randomNum= parseInt(prompt("Please pick up a number form 1 to 10, Let\'s see if you will know the num I thinking about!"))
+let randomNum= parseInt(prompt("Please pick up a number form 1 to 10, Let\'s see if you will know the num I thinking about!"))
   let answer = 2;
   //let score = 0;
     //console.log(randomNum,answer);
