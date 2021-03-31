@@ -81,12 +81,12 @@ function favSeries(){
  }
  //alert('If you answered YES that\'s correct!');
 }
-
 favSeries();
 
 
-
- let favouriteHabit=prompt('I like Football matches?');
+//Q4
+function favHabit(){
+let favouriteHabit=prompt('I like Football matches?');
     favouriteHabit=favouriteHabit.toLowerCase();
     console.log(favouriteHabit.toLowerCase());
     console.log(favouriteHabit);
@@ -101,6 +101,9 @@ favSeries();
 
  }
  //alert('If you answered YES that\'s correct!');
+}
+favHabit();
+
 
  let favouriteWriter=prompt('My favourite writer is Dan Brown?');
     favouriteWriter=favouriteWriter.toLowerCase();
