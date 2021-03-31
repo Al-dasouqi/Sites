@@ -106,7 +106,7 @@ favHabit();
 
 
 //Q5
-function favWriter(){
+function faverWriter(){
  let favouriteWriter=prompt('My favourite writer is Dan Brown?');
     favouriteWriter=favouriteWriter.toLowerCase();
     console.log(favouriteWriter.toLowerCase());
@@ -121,9 +121,11 @@ function favWriter(){
    alert('NO!! It\'s Dan brown ' );
  }
 }
-favWriter();
+faverWriter();
  
 
+//Q6
+function random(){
 let randomNum= parseInt(prompt("Please pick up a number form 1 to 10, Let\'s see if you will know the num I thinking about!"))
   let answer = 2;
   //let score = 0;
@@ -153,7 +155,12 @@ let randomNum= parseInt(prompt("Please pick up a number form 1 to 10, Let\'s see
        randomNum=prompt("OOPS SORRY!! TRY A GREATER NUMBER");
    }
   } 
- alert(' Hi! ' + name + "The correct answer is 2, Play again!" );
+  alert(' Hi! ' + name + "The correct answer is 2, Play again!" );
+  
+} random();
+
+
+
 
  let favWriter= prompt("If you know me , you know that I like two writers, guess one of them!")
   let correct = ["Ali" , "Dan"];
