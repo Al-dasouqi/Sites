@@ -1,8 +1,8 @@
 'use strict';
 
+let score=0;
 
 // let userName='samer';
-
  let name=prompt('what\'s your name');
 
  console.log(name);
@@ -41,10 +41,11 @@ let favouriteColor=prompt('My favourite color is blue?');
  }
  //alert('If you answered YES that\'s correct!');
 }
-favColor()
+favColor();
 
 
-
+//Q2
+function favApp(){
  let favouriteApp=prompt('My favourite application is Facebook?');
     favouriteApp=favouriteApp.toLowerCase();
     console.log(favouriteApp.toLowerCase());
@@ -59,6 +60,9 @@ favColor()
    score++;
  }
  //alert('If you answered YES that\'s correct!');
+}
+favApp();
+
 
  let favouriteSeries=prompt('My favourite series is Friends?');
     favouriteSeries=favouriteSeries.toLowerCase();
