@@ -22,6 +22,9 @@
   alert("There is 5 questions you need to answer them in order to know how much you know me!");
 //alert('hellooo');
 
+
+//Q1
+function favColor(){
 let favouriteColor=prompt('My favourite color is blue?');
     favouriteColor=favouriteColor.toLowerCase();
     console.log(favouriteColor.toLowerCase());
@@ -37,6 +40,10 @@ let favouriteColor=prompt('My favourite color is blue?');
    alert('NO!! , My favourite is Blue.' );
  }
  //alert('If you answered YES that\'s correct!');
+}
+favColor()
+
+
 
  let favouriteApp=prompt('My favourite application is Facebook?');
     favouriteApp=favouriteApp.toLowerCase();
