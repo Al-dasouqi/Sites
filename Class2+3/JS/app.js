@@ -1,8 +1,8 @@
 'use strict';
 
+let score=0;
 
 // let userName='samer';
-
  let name=prompt('what\'s your name');
 
  console.log(name);
@@ -22,6 +22,9 @@
   alert("There is 5 questions you need to answer them in order to know how much you know me!");
 //alert('hellooo');
 
+
+//Q1
+function favColor(){
 let favouriteColor=prompt('My favourite color is blue?');
     favouriteColor=favouriteColor.toLowerCase();
     console.log(favouriteColor.toLowerCase());
@@ -37,7 +40,12 @@ let favouriteColor=prompt('My favourite color is blue?');
    alert('NO!! , My favourite is Blue.' );
  }
  //alert('If you answered YES that\'s correct!');
+}
+favColor();
 
+
+//Q2
+function favApp(){
  let favouriteApp=prompt('My favourite application is Facebook?');
     favouriteApp=favouriteApp.toLowerCase();
     console.log(favouriteApp.toLowerCase());
@@ -52,7 +60,12 @@ let favouriteColor=prompt('My favourite color is blue?');
    score++;
  }
  //alert('If you answered YES that\'s correct!');
+}
+favApp();
 
+
+//Q3
+function favSeries(){
  let favouriteSeries=prompt('My favourite series is Friends?');
     favouriteSeries=favouriteSeries.toLowerCase();
     console.log(favouriteSeries.toLowerCase());
@@ -67,8 +80,13 @@ let favouriteColor=prompt('My favourite color is blue?');
   alert('NO!! it is my favourite' );
  }
  //alert('If you answered YES that\'s correct!');
+}
+favSeries();
 
- let favouriteHabit=prompt('I like Football matches?');
+
+//Q4
+function favHabit(){
+let favouriteHabit=prompt('I like Football matches?');
     favouriteHabit=favouriteHabit.toLowerCase();
     console.log(favouriteHabit.toLowerCase());
     console.log(favouriteHabit);
@@ -83,7 +101,12 @@ let favouriteColor=prompt('My favourite color is blue?');
 
  }
  //alert('If you answered YES that\'s correct!');
+}
+favHabit();
 
+
+//Q5
+function faverWriter(){
  let favouriteWriter=prompt('My favourite writer is Dan Brown?');
     favouriteWriter=favouriteWriter.toLowerCase();
     console.log(favouriteWriter.toLowerCase());
@@ -97,9 +120,13 @@ let favouriteColor=prompt('My favourite color is blue?');
    //console.log('NO!! It\'s Dan brown ' );
    alert('NO!! It\'s Dan brown ' );
  }
+}
+faverWriter();
+ 
 
-
- let randomNum= parseInt(prompt("Please pick up a number form 1 to 10, Let\'s see if you will know the num I thinking about!"))
+//Q6
+function random(){
+let randomNum= parseInt(prompt("Please pick up a number form 1 to 10, Let\'s see if you will know the num I thinking about!"))
   let answer = 2;
   //let score = 0;
     //console.log(randomNum,answer);
@@ -128,8 +155,14 @@ let favouriteColor=prompt('My favourite color is blue?');
        randomNum=prompt("OOPS SORRY!! TRY A GREATER NUMBER");
    }
   } 
- alert(' Hi! ' + name + "The correct answer is 2, Play again!" );
+  alert(' Hi! ' + name + "The correct answer is 2, Play again!" );
+  
+} random();
 
+
+
+//Q7
+function favBooks(){
  let favWriter= prompt("If you know me , you know that I like two writers, guess one of them!")
   let correct = ["Ali" , "Dan"];
   favWriter=favWriter.toLowerCase();
@@ -153,5 +186,9 @@ let favouriteColor=prompt('My favourite color is blue?');
    } 
   
   } 
- alert(' Hi! ' + name + "The correct answer is Ali Al-wardi or Dan Brown, Play again!" );
+}
+favBooks();
+ 
+
+alert(' Hi! ' + name + "The correct answer is Ali Al-wardi or Dan Brown, Play again!" );
  alert(`thanks for playing ${name} your score is ${score} `);
