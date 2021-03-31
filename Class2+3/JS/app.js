@@ -161,7 +161,8 @@ let randomNum= parseInt(prompt("Please pick up a number form 1 to 10, Let\'s see
 
 
 
-
+//Q7
+function favBooks(){
  let favWriter= prompt("If you know me , you know that I like two writers, guess one of them!")
   let correct = ["Ali" , "Dan"];
   favWriter=favWriter.toLowerCase();
@@ -185,5 +186,9 @@ let randomNum= parseInt(prompt("Please pick up a number form 1 to 10, Let\'s see
    } 
   
   } 
- alert(' Hi! ' + name + "The correct answer is Ali Al-wardi or Dan Brown, Play again!" );
+}
+favBooks();
+ 
+
+alert(' Hi! ' + name + "The correct answer is Ali Al-wardi or Dan Brown, Play again!" );
  alert(`thanks for playing ${name} your score is ${score} `);
