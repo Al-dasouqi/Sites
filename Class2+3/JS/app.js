@@ -64,6 +64,8 @@ function favApp(){
 favApp();
 
 
+//Q3
+function favSeries(){
  let favouriteSeries=prompt('My favourite series is Friends?');
     favouriteSeries=favouriteSeries.toLowerCase();
     console.log(favouriteSeries.toLowerCase());
@@ -78,6 +80,11 @@ favApp();
   alert('NO!! it is my favourite' );
  }
  //alert('If you answered YES that\'s correct!');
+}
+
+favSeries();
+
+
 
  let favouriteHabit=prompt('I like Football matches?');
     favouriteHabit=favouriteHabit.toLowerCase();
